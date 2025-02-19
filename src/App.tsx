@@ -1,12 +1,13 @@
 
 import './App.css'
+import Header from "./components/Header/Header";
 
 function App() {
 
 
   return (
     <>
-      <header>header</header>
+      <Header/>
         <main>
             <div className="toolbar">
                 <input type="text"/>

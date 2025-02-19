@@ -57,4 +57,9 @@ body {
   background-color: var(--color-default-background);
   color: var(--color-default-foreground);
 
+  width: min(46rem, 100% - 2rem);
+  margin-inline: auto;
+  border: 1px solid red;
+
+
 }
