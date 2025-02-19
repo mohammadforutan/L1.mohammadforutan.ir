@@ -1,7 +1,10 @@
 .header {
+    display: flex;
+    justify-content: center;
+    margin-block: 2.5rem 1rem;
     h1 {
         font-size: 1.5rem;
         font-weight: 500;
-        
+
     }
 }
