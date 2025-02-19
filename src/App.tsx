@@ -6,7 +6,22 @@ function App() {
 
   return (
     <>
-      <h1>hi</h1>
+      <header>header</header>
+        <main>
+            <div className="toolbar">
+                <input type="text"/>
+                <select name="" id="">
+                    <option value="all">All</option>
+                    <option value="good">Good</option>
+                    <option value="bad">Bad</option>
+                </select>
+                <ul className="result">
+                    <li>NOTE #1</li>
+                    <li>NOTE #2</li>
+                    <li>NOTE #3</li>
+                </ul>
+            </div>
+        </main>
     </>
   )
 }
