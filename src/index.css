@@ -14,18 +14,19 @@
   --color-default-foreground: var(--color-gray-98);
 
   --color-primary: hsl(243, 100%, 69%);
+  --color-primary-outline: hsl(243, 100%, 69%, 40%);
+
   --color-primary-fade: hsl(120deg 50% 96%);
   --color-primary-lighter: hsl(120deg 50% 52%);
   --color-primary-darker: hsl(120deg 50% 44%);
   --color-primary-opposite: var(--color-gray-10);
-
-
-
-font-family: "Kanit", serif;
-
 }
+html {
+  font-family: "Kanit", serif;
 
-
+  caret-color: var(--color-primary);
+  accent-color: var(--color-primary);
+}
 
 *,
 *::before,
@@ -35,8 +36,6 @@ font-family: "Kanit", serif;
   margin: 0;
   padding: 0;
 }
-
-
 
 input,
 label,
@@ -52,14 +51,11 @@ optgroup {
   font: inherit;
 }
 
-
 body {
-  background-color: var(--color-default-background);
-  color: var(--color-default-foreground);
+  background-color: var(--color-default-foreground);
+  color: var(--color-default-background);
 
-  width: min(46rem, 100% - 2rem);
+  inline-size: min(46rem, 100% - 2rem);
   margin-inline: auto;
   border: 1px solid red;
-
-
 }
