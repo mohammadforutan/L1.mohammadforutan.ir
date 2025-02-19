@@ -9,6 +9,7 @@ export default function Toolbar(): ReactNode {
       <TextInput
         placeholder={"Search note..."}
         suffixIcon={<MingcuteSearchLine />}
+        /*  ctlr + space = suggest all props*/
       />
 
       <select name="" id="">
