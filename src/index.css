@@ -14,8 +14,14 @@
   --color-default-foreground: var(--color-gray-98);
 
   --color-primary: hsl(243, 100%, 69%);
+  --color-primary-hover: hsl(243, 67%, 59%);
   --color-primary-outline: hsl(243, 100%, 69%, 40%);
 
+  --shadow: 0 4px 140px 0 hsl(0, 0%, 0%, 33%);
+
+  &.dark {
+    --color-primary-hover: hsl(244, 49%, 53%);
+  }
   --color-primary-fade: hsl(120deg 50% 96%);
   --color-primary-lighter: hsl(120deg 50% 52%);
   --color-primary-darker: hsl(120deg 50% 44%);

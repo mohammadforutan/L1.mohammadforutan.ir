@@ -3,6 +3,7 @@ import styles from "./Toolbar.module.css";
 import TextInput from "../TextInput/TextInput";
 import MingcuteSearchLine from "../../icons/MingcuteSearchLine";
 import Select from "../Select/Select";
+import Button from "../Button/Button";
 
 export default function Toolbar(): ReactNode {
   return (
@@ -20,7 +21,9 @@ export default function Toolbar(): ReactNode {
           { value: "bad", label: "Bad" },
         ]}
       />
-      <button>..</button>
+      <Button variant="outline" size="medium" shape="rectangle">
+        click me
+      </Button>
     </div>
   );
 }
