@@ -5,6 +5,10 @@
   --color-primary-fade: hsl(243deg 100% 90%);
   --color-primary-hover: hsl(243deg 67% 59%);
   --color-primary-outline: hsl(243deg 100% 69% / 40%);
+  --color-danger: hsl(0deg 100% 69%);
+  --color-danger-fade: hsl(0deg 100% 90%);
+  --color-danger-hover: hsl(0deg 67% 59%);
+  --color-danger-outline: hsl(0deg 100% 69% / 40%);
   --color-surface: var(--color-white);
   --color-text: var(--color-black);
   --shadow: 0 4px 140px 0 hsl(0deg 0% 0% / 33%);
