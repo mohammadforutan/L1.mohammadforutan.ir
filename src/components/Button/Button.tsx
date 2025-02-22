@@ -16,6 +16,7 @@ export default function Button({
   variant = "solid",
   size = "medium",
   shape = "rectangle",
+
   children,
   className,
   ...otherProps
