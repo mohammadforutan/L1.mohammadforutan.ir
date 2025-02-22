@@ -4,11 +4,13 @@ import TextInput from "../TextInput/TextInput";
 import MingcuteSearchLine from "../../icons/MingcuteSearchLine";
 import Select from "../Select/Select";
 import Button from "../Button/Button";
+import MingcuteMoonLine from "../../icons/MingcuteMoonLine";
 
 export default function Toolbar(): ReactNode {
   return (
     <div className={styles.toolbar}>
       <TextInput
+        className={styles.input}
         placeholder={"Search note..."}
         suffixIcon={<MingcuteSearchLine />}
         /*  ctlr + space = suggest all props*/
@@ -21,8 +23,8 @@ export default function Toolbar(): ReactNode {
           { value: "bad", label: "Bad" },
         ]}
       />
-      <Button variant="outline" size="medium" shape="rectangle">
-        click me
+      <Button variant="solid" size="medium" shape="rectangle">
+        <MingcuteMoonLine />
       </Button>
     </div>
   );

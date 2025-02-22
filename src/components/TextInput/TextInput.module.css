@@ -5,15 +5,13 @@
   align-items: center;
   padding: 0.5rem;
   border-radius: 0.25rem;
-  input {
-    /*sesson 7 36:50*/
-    block-size: 1rem;
 
+  input {
+    /* sesson 7 36:50 */
+    block-size: 1rem;
     line-height: 1rem;
     color: var(--color-primary);
-
     background-color: transparent;
-
     border: none;
     flex: 1 1 0;
 
@@ -25,9 +23,10 @@
   .suffix {
     color: var(--color-primary);
     font-size: 1.25rem;
+    display: grid;
   }
 
-  /*zamani faal mishe ke eki az elenamhaee dakhel text.input focus beshe*/
+  /* zamani faal mishe ke eki az elenamhaee dakhel text.input focus beshe */
   &:focus-within {
     outline: 2px solid var(--color-primary-outline);
   }
