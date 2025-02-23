@@ -11,6 +11,7 @@
   --color-danger-outline: hsl(0deg 100% 69% / 40%);
   --color-surface: var(--color-white);
   --color-text: var(--color-black);
+  --color-border: hsl(243deg 100% 90%);
   --shadow: 0 4px 140px 0 hsl(0deg 0% 0% / 33%);
   --color-gray-98: hsl(0deg 0% 98%);
   --color-gray-90: hsl(0deg 0% 90%);
@@ -65,5 +66,4 @@ body {
   color: var(--color-default-background);
   inline-size: min(46rem, 100% - 2rem);
   margin-inline: auto;
-  border: 1px solid red;
 }
