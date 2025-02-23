@@ -1,0 +1,5 @@
+.create {
+  position: fixed;
+  inset-block-end: 1rem;
+  inset-inline-end: 1rem;
+}
