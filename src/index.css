@@ -12,6 +12,7 @@
   --color-surface: var(--color-white);
   --color-text: var(--color-black);
   --color-border: hsl(243deg 100% 90%);
+  --color-backdrop: hsl(0deg 0% 0% / 20%);
   --shadow: 0 4px 140px 0 hsl(0deg 0% 0% / 33%);
   --color-gray-98: hsl(0deg 0% 98%);
   --color-gray-90: hsl(0deg 0% 90%);

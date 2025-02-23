@@ -2,4 +2,37 @@
   position: fixed;
   inset-block-end: 1rem;
   inset-inline-end: 1rem;
+
+  dialog {
+    inline-size: min(30rem, 100% - 2rem);
+
+    /* inline-size: 100%; */
+
+    /* max-inline-size: 30rem; */
+    border: none;
+    border-radius: 0.5rem;
+    margin: auto;
+
+    &::backdrop {
+      background-color: var(--color-backdrop);
+      backdrop-filter: blur(3px);
+    }
+
+    .content {
+      display: grid;
+      gap: 1.5rem;
+      padding: 1rem;
+
+      .title {
+        font-size: 1.5rem;
+        font-weight: 500;
+      }
+
+      .actions {
+        display: flex;
+        justify-content: space-between;
+        gap: 1rem;
+      }
+    }
+  }
 }
